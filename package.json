@@ -1,0 +1,20 @@
+{
+  "name": "constitution-quest",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gamified web app teaching the U.S. Constitution and amendments",
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 8080",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "coverage": "vitest run --coverage",
+    "lint": "echo 'No linter configured yet'"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.0",
+    "jsdom": "^25.0.0",
+    "@playwright/test": "^1.48.0"
+  }
+}
